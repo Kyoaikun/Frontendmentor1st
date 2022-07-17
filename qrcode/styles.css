@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body{
+    background-color: hsl(212, 45%, 89%);
+    margin: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main{
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    border-radius: 20px;
+    width: 255px;
+    height: 535px;
+    margin: 10px;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .qrCode {
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .h1 { 
+    font-size: 4px; 
+    text-align: center; 
+    font-weight: 5px;
+    margin: 10px;
+  }
+  .p { 
+    color: hsl(220, 15%, 55%); 
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .qr-Bold {
+    font-size: 22px;
+    font-weight: 700px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .qr-text {
+         text-align: center;
+         font-weight: 400px;
+  }
+
+  .attribution {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    margin-top: 20px;
+    /* margin-bottom: auto; */
+  }
+
+
+  
+  
+  /* @media screen and (min-width:375px) and (max-width:1440px) { */
+    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+  /* } */
